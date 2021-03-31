@@ -1,0 +1,18 @@
+print('Cameron Trejo')
+Cars = ['Ford', 'Chrysler', 'Dodge', 'Ram', 'Jeep', 'Chevy', 'GMC']
+print(Cars)
+print(len(Cars))
+Cars.append('Buick')
+print(Cars)
+print(Cars[3])
+Cars.insert(3, 'Toyota')
+print(Cars)
+Cars.pop(5)
+print(Cars)
+Cars.sort()
+print(Cars)
+Cars.sort(reverse = True)
+print(Cars)
+my_array_length = len(Cars)
+array_string = 'The length of my array is '
+print(array_string, my_array_length)
